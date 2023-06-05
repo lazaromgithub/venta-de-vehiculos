@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario para ferrari</title>
+<style type="text/css">
+body {
+	background-color: #8E8E8E;
+	color: #333333;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+form {
+	margin-bottom: 30px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+form input[type="radio"] {
+	margin-right: 5px;
+}
+
+form fieldset {
+	border: none;
+	margin-bottom: 20px;
+}
+
+form .buttons {
+	text-align: center;
+}
+
+form .buttons input {
+	margin-right: 10px;
+}
+
+form textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+a:link {
+	color: #FF0004;
+}
+a:visited {
+	color: #F54D50;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+	<h1><img src="imagenes/mi-empre_log.gif" width="92" height="76" alt=""/>Formulario <img src="imagenes/ferrari-logo-gif.gif" width="92" height="76" alt=""/></h1>
+	<form>
+	  <label for="fullname">Nombre completo:</label>
+		<input type="text" name="fullname" id="fullname">
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email">
+
+		<label for="phone">Número de teléfono:</label>
+		<input type="tel" name="phone" id="phone">
+
+		<fieldset>
+			<legend>Modelo de Ferrari:</legend>
+			<label>
+				<input type="radio" name="ferrariModel" value="Ferrari 296">
+				Ferrari 296     precio:
+			321546 dolares</label>
+			<br>
+			<label>
+				<input type="radio" name="ferrariModel" value="Ferrari SF90 Stradale">
+				Ferrari SF90 Stradale
+			precio:9.03794 dolares</label>
+			<br>
+			<label>
+				<input type="radio" name="ferrariModel" value="Ferrari 488">
+				Ferrari 488
+			precio:355170 dolares</label>
+		</fieldset>
+
+		<div class="buttons">
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Restablecer">
+		</div>
+	</form>
+
+	<form id="commentForm" name="commentForm" method="post">
+		<label for="comment">Comentario:</label>
+		<textarea name="comment" id="comment" rows="4"></textarea>
+		<div class="buttons">
+			<p>
+			  <input type="submit" value="Enviar comentario">
+		  </p>
+		</div>
+	</form>
+	<h3 style="color: #FF0000"><a href="sitio nuevo de ferrari.html">regresar al sitio </a></h3>
+<span style="color: #FF0000"><img src="../../Documents/photoshop/Velocimetro-2-neon.jpg" width="133" height="107 aling=left" align="right"></span></div>
+</body>
+</html>
